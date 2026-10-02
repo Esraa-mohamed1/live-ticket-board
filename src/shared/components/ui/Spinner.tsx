@@ -1,0 +1,7 @@
+export function Spinner() {
+  return (
+    <span className="spinner" role="status" aria-label="Loading">
+      <span className="sr-only">Loading…</span>
+    </span>
+  );
+}
